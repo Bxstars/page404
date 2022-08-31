@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@200;400&family=Gentium+Plus:ital@1&family=Inika&family=Lobster&display=swap');
+
+.page_404 {
+    padding: 40px 0;
+    background: #fff;
+    font-family: "inika"
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.four_zero_four_bg {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+}
+
+h1 {
+    font-size: 80px;
+    margin-left: 30%;
+} 
+
+.link_404 {
+    color: #fff;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.contant_box_404 {
+    margin-top: -50px;
+    text-align: center;
+}
+
+@keyframes neon {
+    from {
+        filter: drop-shadow(0 0 0 #fff);
+    }
+    50% {
+        filter: drop-shadow(0 0 0 #fff);
+    }
+    to {
+        filter: drop-shadow(10px 0px 10px var(--cor-neon));
+        color: #39ac31;
+    }
+}
+
+h1 {
+    animation: neon 10.5s infinite ease-in-out;
+}
+
+.text-center {
+ --cor-neon: #d5dc06;
+}
+
